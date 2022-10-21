@@ -1,0 +1,180 @@
+
+
+#p2 {
+    background-color: rgb(37, 104, 228);
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+ :root{
+     --brightOrange: hsl(31, 77%, 52%);
+     --darkCyan: hsl(184, 100%, 22%);
+     --veryDarkCyan: hsl(179, 100%, 13%);
+     --transparentWhite: hsla(0, 0%, 100%, 0.75);
+     --veryLightGray: hsl(0, 0%, 95%);
+ }
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ #main-container{
+     width: 325px;
+     margin: 87px auto 40px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+.Posicion{
+
+float:right;
+display:flex;
+}
+
+ article{
+     width: 100%;
+     height: 440px;
+     padding: 48px;
+ }
+ #Estudios{
+     background-color: var(--brightOrange);
+ }
+ #Conocimientos{
+     background-color: var(--darkCyan);
+ }
+ #luxury{
+     background-color: var(--veryDarkCyan);
+ }
+ img{
+     margin-bottom: 36px;
+ }
+ h2{
+     color: var(--veryLightGray);
+     font-family: 'Big Shoulders Display', cursive;
+     font-size: 2.4em;
+     text-transform: uppercase;
+     margin-bottom: 25px;
+ }
+ ul{
+    color: var(--transparentWhite);
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+ p{
+     color: var(--transparentWhite);
+     line-height: 25px;
+     margin-bottom: 25px;
+ }
+
+ #letra{
+    font-family: Cambria;
+    font-size: 22px;
+    color:aliceblue
+}
+
+#letra2{
+    font-family: Cambria;
+    font-size: 40px;
+    color:aliceblue
+}
+
+#letra3{
+    font-weight:  bolder;
+    font-family: Cambria;
+    font-size: 40px;
+    color:black
+}
+
+#letra4{
+    font-family: Cambria;
+    font-size: 22px;
+    color:black
+}
+
+#a2{
+    width: 148px;
+    height: 46px;
+    border-radius: 45px;
+    border-style: none;
+    background-color: var(--veryLightGray);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn {
+
+transition: all 300ms;
+position: relative;
+
+
+}
+
+
+#pelicula{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+ button{
+     width: 148px;
+     height: 46px;
+     border-radius: 45px;
+     border-style: none;
+     background-color: var(--veryLightGray);
+     font-family: 'Lexend Deca', sans-serif;
+     font-size: 15px;
+ }
+ 
+ #sedans-btn{
+     color: var(--brightOrange);
+ }
+ #suvs-btn{
+     color: var(--darkCyan);
+ }
+ #luxury-btn{
+     color: var(--veryDarkCyan);
+ }
+ button:hover{
+     cursor: pointer;
+     border: 2px solid var(--veryLightGray);  
+ }
+ #sedans-btn:hover{
+     background-color: var(--brightOrange);
+     color: var(--veryLightGray);  
+ }
+ #suvs-btn:hover{
+     background-color: var(--darkCyan);
+     color: var(--veryLightGray);  
+ }
+ #luxury-btn:hover{
+     background-color: var(--veryDarkCyan);
+     color: var(--veryLightGray);  
+ }
+ 
+ .attribution { 
+     font-size: 11px; 
+     text-align: center; 
+     margin-bottom: 40px;
+ }
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+ }
+ @media (min-width: 944px){
+     #main-container{
+         margin-top: 170px;
+         display: flex;
+         width: 924px;
+     }
+     article{
+         height: 750px;
+     }
+     p{
+         margin-bottom: 80px;
+     }
+     
+ }
